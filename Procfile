@@ -1,0 +1,1 @@
+web: python flask_img_scaper.py   --master --processes 4 --threads 2
