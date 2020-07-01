@@ -104,7 +104,7 @@ def persist_image(folder_path: str, url: str, counter):
         print(f"ERROR - Could not save {url} - {e}")
 
 
-def search_and_download(search_term: str, driver_path: str, target_path='./images', number_images=10):
+def search_and_download(search_term: str, driver_path: str, target_path='/images', number_images=10):
     target_folder = os.path.join(target_path, '_'.join(
         search_term.lower().split(' ')))  # make the folder name inside images with the search string
 
